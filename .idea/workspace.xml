@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31d69923-1c20-48d4-bf87-6231dd323573" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObject/PageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotation/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotation/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotation/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/annotation/URLSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/BrowserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/IFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/driver/WebDriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/BrowserNotSupported.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/UIExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CoursesCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/waiters/BaseWaiters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/courses/CourseCatalog_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/courses/MaxDateCourses_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/courses/MinDateCourses_Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NeThIA1am4yCAEtphunfLOp49X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Светлана/IdeaProjects/OTUS_AQA_JAVA_HW1",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="courses" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\src\main\java" />
+      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\src\main" />
+      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MinAndMaxDateCourses_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OTUS_AQA_JAVA_HW1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="courses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="courses" />
+      <option name="MAIN_CLASS_NAME" value="courses.MinAndMaxDateCourses_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MinAndMaxDateCourses_Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31d69923-1c20-48d4-bf87-6231dd323573" name="Changes" comment="" />
+      <created>1680023666370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680023666370</updated>
+    </task>
+    <servers />
+  </component>
+</project>
