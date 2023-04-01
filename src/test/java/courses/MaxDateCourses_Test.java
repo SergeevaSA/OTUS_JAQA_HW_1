@@ -1,14 +1,12 @@
+package courses;
+
 import annotation.Driver;
 import exceptions.UIExtension;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+import pages.CoursesCategoryPage;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -22,22 +20,19 @@ public class MaxDateCourses_Test {
     private WebDriver driver;
 
     @Test
-    public void GetLatestCourse() {
-        List<Course> courses = driver.findElements(By.xpath("//div[@class='lessons']/div[@class='lesson']"))
+     public void GetLatestCourse() {
+        List<CoursesCategoryPage> courses = driver.findElements(By.xpath("//div[@class='lessons']/div[@class='lesson']"))
                 .stream()
-                .map((WebElement element) -> {
-                    return parseCourseFromWebElement(element);})
+                .map(element -> CoursesCategoryPage.parseCourseFromWebElement(element, driver))
                 .collect(Collectors.toList());
 
-        Optional<Course> latestCourse = courses.stream()
-                .max(Comparator.comparing(Course::getStartDate));
+            Optional<CoursesCategoryPage> latestCourse = getLatestCourse(courses);
 
-        assert(latestCourse.isPresent());
-    }
+            assert(latestCourse.isPresent());
+        }
 
-    private Course parseCourseFromWebElement(WebElement element) {
-        String name = element.findElement(By.xpath("./div[@class='name']/a")).getText();
-        LocalDate startDate = LocalDate.parse(element.findElement(By.xpath("./div[@class='start-date']")).getText(), DATE_FORMATTER);
-        return new Course(name, startDate);
+    public Optional<CoursesCategoryPage> getLatestCourse(List<CoursesCategoryPage> courses) {
+        return courses.stream()
+                .max(Comparator.comparing(CoursesCategoryPage::getStartDate));
     }
 }

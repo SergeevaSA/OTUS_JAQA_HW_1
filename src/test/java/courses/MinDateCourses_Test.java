@@ -1,13 +1,12 @@
+package courses;
+
 import annotation.Driver;
 import exceptions.UIExtension;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.time.LocalDate;
+import pages.CoursesCategoryPage;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -22,23 +21,18 @@ public class MinDateCourses_Test {
 
     @Test
     public void GetEarliestCourse() {
-
-        List<Course> courses = driver.findElements(By.xpath("//div[@class='lessons']/div[@class='lesson']"))
+        List<CoursesCategoryPage> courses = driver.findElements(By.xpath("//div[@class='lessons']/div[@class='lesson']"))
                 .stream()
-                .map((WebElement element) -> {
-                    return parseCourseFromWebElement(element);
-                })
+                .map(element -> CoursesCategoryPage.parseCourseFromWebElement(element, driver))
                 .collect(Collectors.toList());
 
-        Optional<Course> earliestCourse = courses.stream()
-                .min(Comparator.comparing(Course::getStartDate));
+        Optional<CoursesCategoryPage> earliestCourse = getEarliestCourse(courses);
 
         assert(earliestCourse.isPresent());
     }
 
-    private Course parseCourseFromWebElement(WebElement element) {
-        String name = element.findElement(By.xpath("./div[@class='name']/a")).getText();
-        LocalDate startDate = LocalDate.parse(element.findElement(By.xpath("./div[@class='start-date']")).getText(), DATE_FORMATTER);
-        return new Course(name, startDate);
+    public Optional<CoursesCategoryPage> getEarliestCourse(List<CoursesCategoryPage> courses) {
+        return courses.stream()
+                .min(Comparator.comparing(CoursesCategoryPage::getStartDate));
     }
 }
