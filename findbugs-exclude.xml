@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+    <Match>
+        <Bug code="FORMAT_STRING" />
+        <Class name="com.example.YourClass" />
+        <Method name="clickCategoryCourseLinkByName" />
+    </Match>
+    <Match>
+        <Bug pattern="VA_FORMAT_STRING_EXTRA_ARGUMENTS_PASSED"/>
+    </Match>
+    <Match>
+        <Class name="com.example.MyClass" />
+        <Method name="myMethod" />
+        <Bug pattern="FORMAT_STRING_ERROR" />
+    </Match>
+</FindBugsFilter>

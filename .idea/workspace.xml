@@ -4,16 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31d69923-1c20-48d4-bf87-6231dd323573" name="Changes" comment="Попытка 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/AbsBaseComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/CategoryFilterComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/CoursesCategoryData.java" afterDir="false" />
+    <list default="true" id="31d69923-1c20-48d4-bf87-6231dd323573" name="Changes" comment="-">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageobject/PageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/PageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObject/PageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObject/PageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotation/Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotation/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/annotation/URLSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/annotation/URLSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/AbsBaseComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/AbsBaseComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/CategoryFilterComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/CategoryFilterComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/BrowserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/BrowserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/CoursesCategoryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/CoursesCategoryData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/IFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/IFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/BrowserNotSupported.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/BrowserNotSupported.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/UIExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exceptions/UIExtension.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CoursesCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CoursesCategoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CoursesCategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CoursesCategoryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waiters/BaseWaiters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/waiters/BaseWaiters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/courses/CourseCatalog_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/courses/CourseCatalog_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/courses/MaxDateCourses_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/courses/MaxDateCourses_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/courses/MinDateCourses_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/courses/MinDateCourses_Test.java" afterDir="false" />
@@ -36,6 +51,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="aaad7398-7d17-4198-8864-219e6487ac87" />
+        <option name="url" value="https://github.com/SergeevaSA/OTUS_JAQA_HW_1" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,25 +78,47 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Светлана/IdeaProjects/OTUS_AQA_JAVA_HW1",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Светлана/IdeaProjects/OTUS_AQA_JAVA_HW1/target/maven-status",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "com.soldevelo.findbugs.FindBugsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="courses" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\target\maven-status" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1" />
+      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\src\main\resources" />
+      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\src\test\java\resources" />
+      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\target" />
       <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\src\main\java" />
-      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\src\main" />
-      <recent name="C:\Users\Светлана\IdeaProjects\OTUS_AQA_JAVA_HW1\src" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CourseCatalog_Test.checkboxCategoryCourses">
+    <configuration name="CourseCatalog_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OTUS_AQA_JAVA_HW1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="courses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="courses" />
+      <option name="MAIN_CLASS_NAME" value="courses.CourseCatalog_Test" />
+      <option name="METHOD_NAME" value="checkboxCategoryCourses" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CourseCatalog_Test.checkboxCategoryCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OTUS_AQA_JAVA_HW1" />
       <extension name="coverage">
@@ -114,6 +164,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CourseCatalog_Test.checkboxCategoryCourses" />
+        <item itemvalue="JUnit.CourseCatalog_Test" />
         <item itemvalue="JUnit.MinAndMaxDateCourses_Test" />
       </list>
     </recent_temporary>
@@ -143,5 +194,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Попытка 1" />
     <option name="LAST_COMMIT_MESSAGE" value="Попытка 1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

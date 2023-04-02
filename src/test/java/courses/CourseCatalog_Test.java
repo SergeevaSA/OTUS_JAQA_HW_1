@@ -13,18 +13,18 @@ import pages.MainPage;
 
 public class CourseCatalog_Test {
 
-    @Driver
-    private WebDriver driver;
+  @Driver
+  private WebDriver driver;
 
-    @Test
-    public void checkboxCategoryCourses() {
-        new MainPage(driver)
-                .open()
-                .clickCategoryCourseLinkByName(CoursesCategoryData.Programming)
-                .headerShouldBeSameAs("Каталог");
-        new CategoryFilterComponents(driver)
-                .checkboxStatusShouldBeSameAs(CoursesCategoryData.Programming, true);
+  @Test
+  public void checkboxCategoryCourses() {
+    new MainPage(driver)
+            .open()
+            .clickCategoryCourseLinkByName(CoursesCategoryData.Programming)
+            .headerShouldBeSameAs("Каталог");
+    new CategoryFilterComponents(driver)
+            .checkboxStatusShouldBeSameAs(CoursesCategoryData.Programming, true);
 
 
-    }
+  }
 }
