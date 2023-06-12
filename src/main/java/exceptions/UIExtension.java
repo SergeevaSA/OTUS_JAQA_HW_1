@@ -5,7 +5,6 @@ import org.junit.jupiter.api.extension.AfterEachCallback;
 import org.junit.jupiter.api.extension.BeforeEachCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -16,7 +15,7 @@ import java.util.List;
 
 public class UIExtension implements BeforeEachCallback, AfterEachCallback {
 
-  private EventFiringWebDriver driver = null;
+  private WebDriver driver = null;
 
   @SuppressWarnings("unchecked")
   private List<Field> getAnnotatedFields(Class<?> annotation, ExtensionContext extensionContext) {
