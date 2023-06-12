@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.util.Locale;
@@ -18,7 +19,7 @@ public class WebDriverFactory implements IFactory {
   private String browserName = System.getProperty("browser").toLowerCase(Locale.ROOT);
   private EventFiringWebDriver driver;
 
-  public WebDriver newDriver() throws BrowserNotSupported {
+  public RemoteWebDriver newDriver() throws BrowserNotSupported {
     ChromeOptions chromeOptions = new ChromeOptions();
     chromeOptions.addArguments("--no-sandbox");
     chromeOptions.addArguments("--no-first-run");
@@ -30,6 +31,7 @@ public class WebDriverFactory implements IFactory {
     for (BrowserData browserData : BrowserData.values()) {
       if (browserName.equals(browserData.name().toLowerCase(Locale.ROOT))) {
         isSupported = true;
+        break;
       }
     }
 
@@ -52,7 +54,7 @@ public class WebDriverFactory implements IFactory {
     }
   }
 
-  public EventFiringWebDriver getDriver() {
+  public WebDriver getDriver() {
     return driver;
   }
 
